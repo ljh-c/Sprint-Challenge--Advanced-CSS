@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SpaceWalkers</title>
 
   <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
@@ -16,13 +16,24 @@
 
 <body>
 
- <!-- navigation code here -->
-
+  <!-- navigation code here -->
+  <div>
+    <nav>
+      <h1>SpaceWalkers</h1>
+      <div class="links">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+        <a href="#">Sign In</a>
+      </div><!-- links -->
+    </nav>
+  </div><!-- full -->
   <div class="container home">
 
     <header class="intro">
-       <!-- image code here -->
-
+      <!-- image code here -->
+      <img src="img/main-header.png" alt="Above Earth">
       <h2>Lift Off</h2>
     
       <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
@@ -59,7 +70,26 @@
       <div class="walk-img">
           <img src="img/space-walk.png" alt="Space walking astronaut">
       </div>
+    </section>
 
+    <section class="mag">
+      <div class="walk-text">
+        <h3>Stay In Touch</h3>
+
+        <p>Sign up for SpaceWalkers magazine for updates.</p>
+      </div>
+      
+      <div class="subscribe">
+        <form method="post" action="#">
+          <label for="fname">Full Name</label>
+          <input type="text" id="fname" name="fullname" placeholder="First and last name">
+      
+          <label for="eaddress">Email</label>
+          <input type="text" id="eaddress" name="emailaddress" placeholder="Your email">
+          <br>
+          <input type="submit" value="Subscribe">
+        </form>
+      </div>
     </section>
 
     <footer>
