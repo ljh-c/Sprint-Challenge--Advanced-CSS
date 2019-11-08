@@ -1,1 +1,24 @@
-// Navigation code here
+nav {
+    background: @nav-bg;
+    text-align: center;
+    border-bottom: 2px solid @nav-border;
+
+    h1 {
+        padding: 1.3rem;
+    }
+
+    .links {
+        width: 36.5%;
+        margin: 0 auto;
+        padding-top: 0.6rem;
+        padding-bottom: 1.0rem;
+        
+        .flex(space-between, center)
+    }
+
+    .links a {
+        font-size: 1.6rem;
+        color: @nav-font;
+        text-decoration: none;
+    }
+}
